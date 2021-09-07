@@ -57,7 +57,7 @@ namespace Acme.ConsoleApp
                 options.IsAutoRegisterEnabled = true;
             });
 
-            //context.Services.AddHostedService<ConsoleAppHostedService>();
+            context.Services.AddHostedService<ConsoleAppHostedService>();
         }
 
 
